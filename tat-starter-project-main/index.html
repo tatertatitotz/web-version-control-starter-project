@@ -12,36 +12,34 @@
 
 <!--A body is what your users can see on a website-->
 <body>
-<div class="container-xxl p-5 bg-dark text-white">
+<div class="container p-5 my-5 border text-white text-center">
   <h1>Hello, GitHub!</h1>
-  <p>This is my first web page using version control with Git and GitHub.</p>
+  <p class>This is my first web page using version control with Git and GitHub.</p>
 </div>
 
 <div class="container mt-4 p-5 border rounded">
-  <h2>Resources</h2>
-
+  <h2 class="text-info">Resources</h2>
   <ul>
   <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML Tutorial</a></li>
   <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS Tutorial</a></li>
-  <li><a href="https://www.w3schools.com/bootstrap5/index.php" tarager= "_blank">Bootstrap 5 Tutorial</a></li>
+  <li><a href="https://www.w3schools.com/bootstrap5/index.php" target= "_blank">Bootstrap 5 Tutorial</a></li>
+  <li><a href="https://www.w3schools.com/bootstrap5/bootstrap_typography.php" target= "_blank">Typography Boostrap 5</a></li>
   </ul>
- 
-
 </div>
 
-<div class="card p-5 my-5 bg-secondary" style="width:400px">
-
-  <!-- Golf Ball Image -->           
-  
+  <div class="row">
+    <div class="col p-3 bg-primary text-white"></div>
+    <div class="col p-3 bg-dark text-white">
+      <!-- Golf Ball Card -->
+<div class="card pt-5 my-5 bg-secondary text-center" style="width:400px">
   <img src="images/sillyguy.gif" class="float-end rounded" alt="Golf ball man with plate">
-
   <div class="card-body">
     <h3 class="card-title">The Criminal</h3>
-        <p class="card-text">Some example text.</p>
-    <a href="#" class="btn btn-primary">Button Title</a>
+        <p class="card-text">He broke into here</p>
+    <a href="https://pixabay.com/gifs/cartoon-3d-golf-plate-empty-550/" class="btn btn-primary" target="_blank">Go To Him</a>
   </div>
-
-</div>
+    <div class="col p-3 bg-primary text-white"></div>
+  </div>
 
 <!-- Carousel -->
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -71,12 +69,11 @@
   </button>
 </div>
 
+<!-- Fake error message-->
 <div class="container-xxl p-5 my-5 border bg-primary text-white">
   <h1>:(</h1>
   <p>Insert Error Code Here</p>
 </div>
-
-
 
 </body>
 </html>
